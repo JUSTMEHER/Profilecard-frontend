@@ -1,0 +1,105 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body{
+    min-height: 100vh;
+    background-color: hsl(185, 75%, 39%) ;
+    overflow-x: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow-y: hidden;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-top{
+    margin-top: -400px;
+    margin-left: -350px;
+}
+.bg-bottom{
+    margin-left: 700px;
+    margin-top: -200px;
+    
+}
+.card{
+    width:350px;
+    background-color: white;
+    height: 260px;
+    z-index: 10;
+    margin-top: -1800px;
+     border-radius:0 0 20px 20px ;
+}
+.pattern{
+    margin-top: -120px;
+}
+.pat{
+    border-radius: 20px 20px 0 0;
+}
+.vector{
+     border-radius: 50%;
+     border: 5px solid white;
+}
+.vect{
+    margin-left: 125px;
+    margin-top: -50px;
+}
+.text{
+    margin-left: 0px;
+    text-align: center;
+    color: hsl(229, 23%, 23%);
+}
+span{
+    font-weight: 400;
+    color:hsl(227, 10%, 46%)  ;
+    opacity: .8;
+}
+p{
+    color: hsl(227, 10%, 46%) ;
+    font-size: 15px;
+    margin-bottom: 20px;
+    opacity: .8;
+}
+.hr{
+    background-color: hsl(227, 10%, 46%) ;
+    width: 100%;
+    height:1px;
+    opacity: .5;
+}
+ul{
+    list-style: none;
+}
+.value{
+    font-size: 18px;
+    font-weight: 600;
+    color:hsl(229, 23%, 23%) ;
+    margin-left: 15px;
+    opacity: 1;
+}
+li{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: hsl(227, 10%, 46%);
+    margin-left: 5px;
+    opacity: .7;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.left{
+    margin-right: 80px;
+}
+.likes{
+    margin-left: 20px;
+}
+.photo{
+    margin-left: 10px;
+}
+@media (max-width:600px){
+    .bg-top,.bg-bottom{
+        visibility: hidden;
+    }
+    body{
+        background-image: url(images/bg-pattern-top.svg);
+        background-size: 10px 10px;
+    }
+}
